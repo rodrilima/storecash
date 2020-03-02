@@ -1,0 +1,30 @@
+{
+  "name": "storecash",
+  "version": "1.0.0",
+  "description": "Projeto que configura um sistema de cashback para estabelecimentos comerciais",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-handlebars": "^3.1.0",
+    "nodemailer": "^6.4.4",
+    "youch": "^2.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrilima/storecash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrilima/storecash/issues"
+  },
+  "homepage": "https://github.com/rodrilima/storecash#readme"
+}
