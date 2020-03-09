@@ -50,8 +50,11 @@ $ npm start
 ## Built With
 
 - [Express](https://github.com/expressjs/express)
-- [Nunjucks](https://github.com/mozilla/nunjucks)
+- [Express Handlebars](https://github.com/ericf/express-handlebars)
+- [Nodemailer](https://github.com/nodemailer/nodemailer)
 - [Dotenv](https://github.com/motdotla/dotenv)
+- [Express Async Errors](https://github.com/davidbanham/express-async-errors)
+- [Youch](https://github.com/poppinss/youch)
 
 ## License
 
