@@ -29,6 +29,7 @@ class App {
 
   views() {
     this.server.use(express.static(path.resolve(__dirname, "public")));
+    this.server.use("/app", express.static(path.resolve(__dirname, "public")));
     this.server.set("views", path.resolve(__dirname, "views"));
     this.server.engine(
       "hbs",

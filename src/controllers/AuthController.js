@@ -1,7 +1,7 @@
 class AuthController {
   renderLogin(req, res) {
     res.render("auth/login", {
-      page_title: "Login"
+      page_title: "Faça o seu login"
     });
   }
 }

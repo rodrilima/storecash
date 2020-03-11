@@ -2,9 +2,16 @@ const { Router } = require("express");
 const routes = new Router();
 
 const AuthController = require("./controllers/AuthController");
+const DashboardController = require("./controllers/DashboardController");
+const WalletController = require("./controllers/WalletController");
 
 // Auth Routes
 routes.get("/", AuthController.renderLogin);
+
+// App Routes
+routes.get("/app", (req, res) => res.redirect("/app/dashboard"));
+routes.get("/app/dashboard", DashboardController.render);
+routes.get("/app/carteira", WalletController.render);
 
 // Server Error
 routes.get("/server-error", (req, res) =>
